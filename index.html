@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K22-day15-dom-practice</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- BÀI 1 -->
+    <section>
+      <h1>Bài 1: Đổi theme Sáng / Tối</h1>
+      <button id="btnTheme">Chế độ tối</button>
+      <div>
+        <h2>Nội dung mẫu</h2>
+        <p>
+          Đây là đoạn văn bản mẫu để kiểm tra xem màu nền và màu chữ có thay đổi
+          rõ ràng khi chuyển chế độ hay không.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- BÀI 2 -->
+    <section>
+      <h3>Bài 2: Ẩn/Hiện mật khẩu</h3>
+      <form>
+        <label for="inputPass">Mật khẩu:</label>
+        <input type="password" id="inputPass" placeholder="Nhập mật khẩu" />
+        <button type="button" id="btnPass">Hiện</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- BÀI 3 -->
+    <section>
+      <h4>Bài 3: Thay đổi ảnh sản phẩm</h4>
+      <div class="gallery">
+        <!-- Ảnh lớn -->
+        <img
+          id="anhTo"
+          src="https://picsum.photos/id/1015/400/300"
+          alt="Ảnh sông núi"
+        />
+
+        <!-- 3 ảnh nhỏ -->
+        <div class="danh-sach-thumb">
+          <img
+            class="thumb active"
+            src="https://picsum.photos/id/1015/400/300"
+            alt="Ảnh sông núi"
+          />
+          <img
+            class="thumb"
+            src="https://picsum.photos/id/1018/400/300"
+            alt="Ảnh dòng sông"
+          />
+          <img
+            class="thumb"
+            src="https://picsum.photos/id/1019/400/300"
+            alt="Ảnh bờ biển"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

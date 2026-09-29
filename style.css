@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* CSS Dark Mode cho Bài 1 */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #777;
+}
+
+body.dark-mode input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #777;
+}
+
+/* CSS Gallery cho Bài 3 */
+#anhTo {
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.danh-sach-thumb {
+    display: flex;
+    gap: 10px;
+}
+
+.thumb {
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    opacity: 0.6;
+    border: 2px solid transparent;
+}
+
+/* Viền xanh nổi bật cho ảnh được chọn */
+.thumb.active {
+    border: 2px solid #007bff;
+    opacity: 1;
+}
