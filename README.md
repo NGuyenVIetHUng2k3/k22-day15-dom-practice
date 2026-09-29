@@ -12,3 +12,7 @@ cd k22-day15-dom-practice
 # Bước 3: Mở và chạy giao diện
 Cách 1: Mở trực tiếp file index.html
 Cách 2: Mở thư mục bằng VS Code, mở file index.html bằng Live Server
+
+2. Link demo (Vercel)
+
+https://k22-day15-dom-practice.vercel.app/
